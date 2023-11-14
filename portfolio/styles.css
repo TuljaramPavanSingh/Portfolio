@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Concert+One&family=Poppins&family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+    background-color: rgb(218, 200, 206);
+    width: 12vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar nav{
+    padding: 42px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-image: url("R.png");
+    background-size: 88vw 100vh;
+    width: 88vw;
+    height: 100vh;
+    
+}
+.container{
+    display:flex;
+}
+.infoContainer
+{
+    background-color: transparent;
+    width: 54vw;
+    height: 50vh;
+    margin: 180px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 20px;
+    margin: 10px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 18px;
+    margin: 10px;
+
+}
+.moreabout{
+    font-size: 22px;
+}
+.buttons{
+    margin: 20px;
+}
+
+.buttons button{
+    padding: 10px 15px;
+    color: #d60000;
+    font-weight: bold;
+    border-radius: 22px;
+    background-color: gainsboro;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(134, 166, 197);
+
+}
+.devPic img{
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 200px;
+    margin-right: 10px;
+    height: 300px;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 10px;
+}
+.contactform h1{
+    text-align: left;
+}
+.contactform div{
+    padding: 10px 0;
+    text-align:left;
+}
+#emailHelp{
+    font-size: 8px;
+    color:darkslategray;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+width: 24px;
+margin: 3px 0;
+}
+.blogcontainer{
+    background-color:rgb(185, 215, 224);
+    height: 100vh;
+}
+.blogItem{
+    margin: 20px;
+}
+.btn-sm{
+    padding: 5px 0;
+    border-radius: 20px;
+    color:rgb(205, 248, 247);
+    background-color:cornflowerblue
+}
+.intro {
+    margin: 0;   
+    background-color: aliceblue;
+    height: 100vh;
+    width: 90vw;
+
+}
+.intro h2{
+    font-size: 30px;
+    padding: 0px;
+    margin-top: 20px;
+}
+.intro p{
+    font-size: 20px;
+}
+.skills{
+    width: 10px;
+    height: 20px;
+    background-color: #d60000;
+}
+.intro h3{
+    font-size: 30px;
+    margin-top: 25px;
+}
+.intro h4{
+    font-size: 25px;
+    margin-top: 8px;
+}
+.intro h5{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: rgb(227, 16, 16);
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color:darkorange
+}
+.s5{
+    width: 75px;
+    background-color: gold;
+}
+
+
+
+
+
+
+
